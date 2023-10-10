@@ -14,14 +14,14 @@ public class PropertiesReader {
 		prop = new Properties();
 		String propertyFile = "src/test/resources/test.properties";
 
-		try {
+		try {  //try means file will be find from the properties like path will find
 			FileInputStream fis = new FileInputStream(propertyFile);
-			prop.load(fis);
+			prop.load(fis); //load the file
 		}
 
-		catch (IOException e) {
+		catch (IOException e) { // if not found the path then it will give the error
 
-			e.printStackTrace();
+			e.printStackTrace(); //print the error things
 		}
 
 	}

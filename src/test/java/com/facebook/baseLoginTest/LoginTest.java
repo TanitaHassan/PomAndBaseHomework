@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.facbook.pageFactory.LoginPageWithPageFactory;
 import com.facebook.base.BaseTest;
 import com.facebook.utilities.PropertiesReader;
-public class LoginTest extends BaseTest {
+public class LoginTest extends BaseTest { //is a relationship parent child use keywords extends
 	LoginPageWithPageFactory lpf;
 	PropertiesReader propertiesReader;
 	

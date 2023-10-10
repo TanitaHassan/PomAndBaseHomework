@@ -7,7 +7,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageWithPageFactory {
-      WebDriver driver;
+      WebDriver driver; // instance variable
 
 	public LoginPageWithPageFactory(WebDriver driver) {
 		super();
